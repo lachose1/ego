@@ -27,7 +27,7 @@ volatile boolean Pulse = false;     // "True" when User's live heartbeat is dete
 volatile boolean QS = false;        // becomes true when Arduoino finds a beat.
 
 // Regards Serial OutPut  -- Set This Up to your needs
-static boolean serialVisual = true;   // Set to 'true' by Default.  Re-set to 'false' to sendDataToSerial instead. : ) 
+static boolean serialVisual = false;   // Set to 'true' by Default.  Re-set to 'false' to sendDataToSerial instead. : ) 
 
 
 void setup(){
